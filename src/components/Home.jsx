@@ -43,7 +43,7 @@ export default function Home() {
               <FaLinkedin size={28} />
             </a>
             <a
-              href="https://wa.me/6285117065066"
+              href="https://wa.me/6285117005606"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-[#d9b55b] text-[#d9b55b] p-2 rounded-md hover:bg-[#d9b55b] hover:text-[#4a1e1e] transition duration-300"
@@ -61,7 +61,7 @@ export default function Home() {
           transition={{ delay: 0.4, duration: 0.8 }}
         >
           <img
-            src="/profile.jpg"
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt="Profile"
             className="w-[200px] h-[250px]
             sm:w-[230px] sm:h-[300px] object-cover"
