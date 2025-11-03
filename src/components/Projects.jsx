@@ -9,31 +9,31 @@ export default function Projects() {
   const projects = [
     {
       title: "Learning Management System",
-      img: "/digital-doctor.png",
+      img: `${import.meta.env.BASE_URL}digital-doctor.png`,
       link: "https://digitaldoctoracademy.web.id",
     },
     {
       title: "Betta Fish Online Store",
-      img: "/ecom.png",
+      img: `${import.meta.env.BASE_URL}ecom.png`,
       link: "https://id.fishkinian.com",
     },
     {
       title: "Company Profile STBA Yapari",
-      img: "/stba.png",
+      img: `${import.meta.env.BASE_URL}stba.png`,
       link: "https://stbayapari.ac.id",
     },
     {
       title: "Company Profile Property Hill",
-      img: "/ph.png",
+      img: `${import.meta.env.BASE_URL}ph.png`,
       link: "https://propertyhill.my.id",
     },
     {
       title: "Brosur Pemasaran",
-      img: "/brosur.png",
+      img: `${import.meta.env.BASE_URL}brosur.png`,
     },
     {
       title: "Logo Brand Fashion",
-      img: "/brand.png",
+      img: `${import.meta.env.BASE_URL}brand.png`,
     },
   ];
 
