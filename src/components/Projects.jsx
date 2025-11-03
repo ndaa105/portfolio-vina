@@ -20,7 +20,7 @@ export default function Projects() {
     {
       title: "Company Profile STBA Yapari",
       img: "/stba.png",
-      link: "https://stbayapari.co.id",
+      link: "https://stbayapari.ac.id",
     },
     {
       title: "Company Profile Property Hill",
