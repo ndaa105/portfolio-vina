@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(-50deg, #50380c, #351515, #773636, #804e0e);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  color: #d9b55b;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.swiper {
+  width: 100% !important;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+}
