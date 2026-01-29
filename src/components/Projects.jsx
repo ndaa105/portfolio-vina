@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 export default function Projects() {
   const projects = [
     {
-      title: "Learning Management System",
+      title: "Digital Doctor Academy LMS",
       img: `${import.meta.env.BASE_URL}digital-doctor.png`,
       link: "https://www.digitaldoctoracademy.web.id",
     },
