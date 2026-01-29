@@ -10,7 +10,7 @@ export default function Projects() {
     {
       title: "Learning Management System",
       img: `${import.meta.env.BASE_URL}digital-doctor.png`,
-      link: "https://digitaldoctoracademy.web.id",
+      link: "https://www.digitaldoctoracademy.web.id",
     },
     {
       title: "Betta Fish Online Store",
